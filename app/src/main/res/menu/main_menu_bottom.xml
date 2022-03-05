@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Solved" android:title="Solve" android:icon="@drawable/ic_search"></item>
+    <item android:id="@+id/Created" android:title="Create" android:icon="@drawable/ic_create"></item>
+    <item android:id="@+id/Explore" android:title="Explore" android:icon="@drawable/ic_explore"></item>
+    <item android:id="@+id/Account" android:title="Account" android:icon="@drawable/ic_account"></item>
+
+</menu>

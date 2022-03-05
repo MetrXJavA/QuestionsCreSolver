@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1065093256409",
+    "project_id": "prototypequiz",
+    "storage_bucket": "prototypequiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065093256409:android:4f3186a4c9694e6f1cdac8",
+        "android_client_info": {
+          "package_name": "com.prometrx.questionscresolver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065093256409-5eb91kfdpf7ctgq96vcckfk74u681jqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpPcPQr3VwLrZrSevQJvuHrf5UG1lshg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065093256409-5eb91kfdpf7ctgq96vcckfk74u681jqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/drawable/bottom_nav_back.xml" value="0.24375" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/drawable/progress_bar_back.xml" value="0.24375" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/drawable/toolbar_background_new.xml" value="0.24375" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/account_adapter_layout.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/activity_account_settings.xml" value="0.264" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/activity_after_create_click_answer.xml" value="0.2234375" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/activity_after_search.xml" value="0.2234375" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/activity_create_menu.xml" value="0.4" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/activity_find_out_quiz.xml" value="0.23859649122807017" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/activity_id.xml" value="0.2234375" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/activity_reset_pass.xml" value="0.2234375" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/activity_result.xml" value="0.4" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/activity_select_question_number.xml" value="0.176" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/activity_settings.xml" value="0.18342391304347827" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/activity_sign_in.xml" value="0.2234375" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/activity_sign_up.xml" value="0.4" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/activity_write_id.xml" value="0.4" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/after_create_click_answer_layout.xml" value="0.5294117647058824" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/after_search_adapter_layout.xml" value="0.2234375" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/create_layout_last.xml" value="0.264" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/custom_alert.xml" value="0.2234375" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/explore_quiz_layout.xml" value="0.264" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/fragment_account.xml" value="0.264" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/fragment_createdk.xml" value="0.2" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/fragment_explore.xml" value="0.176" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/fragment_settings.xml" value="0.10822401614530777" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/fragment_solved.xml" value="0.1" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/questions_layout.xml" value="0.4542372881355932" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/result_activity_layout.xml" value="0.176" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/layout/solve_layout_last.xml" value="0.2234375" />
+        <entry key="..\:/Users/prome/AndroidStudioProjects/QuestionsCreSolver/app/src/main/res/menu/main_menu_bottom.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

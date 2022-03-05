@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/create_fragment_layout_background"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/create_layout_lastId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:fontFamily="@font/allerta"
+        android:text="Quiz ID: 649931"
+        android:textColor="#707070"
+        android:textSize="24dp"></TextView>
+
+    <TextView
+        android:id="@+id/create_layout_lastQTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:fontFamily="@font/allerta"
+        android:text="Quiz Title: Mathematics"
+        android:textColor="#707070"
+        android:textSize="24dp"></TextView>
+
+    <TextView
+        android:id="@+id/create_layout_lastAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:fontFamily="@font/allerta"
+        android:gravity="end"
+        android:layout_marginRight="5dp"
+        android:text="Answers: 5"
+        android:textColor="#707070"
+        android:textSize="24dp"></TextView>
+
+
+
+
+</LinearLayout>

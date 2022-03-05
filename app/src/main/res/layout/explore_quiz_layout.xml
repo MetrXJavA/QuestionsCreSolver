@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:id="@+id/explore_quiz_layoutMainLayout"
+    android:background="@drawable/purple_explore_layout_background"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/explore_quiz_layoutQCount"
+        android:layout_width="match_parent"
+        android:textSize="48dp"
+        android:textColor="#707070"
+        android:gravity="center"
+        android:fontFamily="@font/allerta"
+        android:layout_height="wrap_content"
+        android:text="12" />
+
+    <TextView
+        android:id="@+id/explore_quiz_layoutQTitle"
+        android:maxLength="32"
+        android:layout_marginTop="15dp"
+        android:textSize="24dp"
+        android:textColor="#707070"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"
+        android:maxWidth="128dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AAAAAAAAAA" />
+
+</LinearLayout>

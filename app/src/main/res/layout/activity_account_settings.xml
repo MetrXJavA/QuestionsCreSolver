@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings.AccountSettingsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbar_background_new"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageView
+            android:id="@+id/AccountSettingsBack"
+            android:layout_width="wrap_content"
+            android:src="@drawable/create_button_background"
+            android:layout_height="wrap_content"></ImageView>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/settings_logo"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar10"
+        app:layout_constraintStart_toStartOf="@+id/toolbar10"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/AccountSettingsChangeUsernameText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/settings_topic"
+                    android:fontFamily="@font/allerta"
+                    android:gravity="center"
+                    android:text="Change Username"
+                    android:textColor="#707070"
+                    android:textSize="24dp"
+                    app:layout_constraintWidth_percent=".9"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/AccountSettingsUsernameDetailLayout"
+                    android:layout_width="0dp"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/settings_opener"
+                    android:padding="12dp"
+                    app:layout_constraintEnd_toEndOf="@+id/AccountSettingsChangeUsernameText"
+                    app:layout_constraintStart_toStartOf="@+id/AccountSettingsChangeUsernameText"
+                    app:layout_constraintTop_toBottomOf="@+id/AccountSettingsChangeUsernameText">
+
+                    <EditText
+                        android:id="@+id/AccountSettingsEnterUsername"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/sign_in_edit_text_back"
+                        android:ems="10"
+                        android:fontFamily="@font/allerta"
+                        android:hint="Enter New Username"
+                        android:inputType="textPersonName"
+                        android:padding="24dp"
+                        android:textColor="#707070"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintWidth_percent=".9" />
+
+                    <EditText
+                        android:id="@+id/AccountSettingsEnterPasswordUsername"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/sign_in_edit_text_back"
+                        android:ems="10"
+                        android:fontFamily="@font/allerta"
+                        android:hint="Enter Password"
+                        android:inputType="textPersonName"
+                        android:padding="24dp"
+                        android:textColor="#707070"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/AccountSettingsEnterUsername"
+                        app:layout_constraintWidth_percent=".9" />
+
+                    <ImageView
+                        android:id="@+id/AccountSettingsDoneUsername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        app:layout_constraintEnd_toEndOf="@+id/AccountSettingsEnterPasswordUsername"
+                        app:layout_constraintTop_toBottomOf="@+id/AccountSettingsEnterPasswordUsername"
+                        app:srcCompat="@drawable/done_button_background" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/AccountSettingsChangeEmailText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/settings_topic"
+                    android:fontFamily="@font/allerta"
+                    android:text="Change Email"
+                    app:layout_constraintWidth_percent=".9"
+                    android:gravity="center"
+                    android:textColor="#707070"
+                    android:textSize="24dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></TextView>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/AccountSettingsEmailDetailLayout"
+                    android:layout_width="0dp"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/settings_opener"
+                    android:padding="12dp"
+                    app:layout_constraintWidth_percent=".9"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/AccountSettingsChangeEmailText">
+
+                    <EditText
+                        android:id="@+id/AccountSettingsEnterEmail"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/sign_in_edit_text_back"
+                        android:fontFamily="@font/allerta"
+                        android:hint="Enter New Email"
+                        android:padding="24dp"
+                        android:textColor="#707070"
+                        android:textSize="18dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintWidth_percent=".9"></EditText>
+
+                    <EditText
+                        android:id="@+id/AccountSettingsEnterPasswordEmail"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/sign_in_edit_text_back"
+                        android:fontFamily="@font/allerta"
+                        android:hint="Enter Password"
+                        android:padding="24dp"
+                        android:textColor="#707070"
+                        android:textSize="18dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/AccountSettingsEnterEmail"
+                        app:layout_constraintWidth_percent=".9"></EditText>
+
+                    <ImageView
+                        android:id="@+id/AccountSettingsDoneEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/done_button_background"
+                        app:layout_constraintEnd_toEndOf="@+id/AccountSettingsEnterPasswordEmail"
+                        app:layout_constraintTop_toBottomOf="@+id/AccountSettingsEnterPasswordEmail"></ImageView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/AccountSettingsChangePasswordText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/settings_topic"
+                    android:fontFamily="@font/allerta"
+                    android:text="Change Password"
+                    app:layout_constraintWidth_percent=".9"
+                    android:gravity="center"
+                    android:textColor="#707070"
+                    android:textSize="24dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></TextView>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/AccountSettingsPasswordDetailLayout"
+                    android:layout_width="0dp"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/settings_opener"
+                    android:padding="12dp"
+                    app:layout_constraintWidth_percent=".9"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/AccountSettingsChangePasswordText">
+
+                    <EditText
+                        android:id="@+id/AccountSettingsNewPassword"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/sign_in_edit_text_back"
+                        android:fontFamily="@font/allerta"
+                        android:hint="Enter New Password"
+                        android:padding="24dp"
+                        android:textColor="#707070"
+                        android:textSize="18dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/AccountSettingsEnterPasswordForPassword"
+                        app:layout_constraintWidth_percent=".9"></EditText>
+
+                    <EditText
+                        android:id="@+id/AccountSettingsEnterPasswordForPassword"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/sign_in_edit_text_back"
+                        android:fontFamily="@font/allerta"
+                        android:hint="Enter Password"
+                        android:padding="24dp"
+                        android:textColor="#707070"
+                        android:textSize="18dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintWidth_percent=".9"></EditText>
+
+                    <ImageView
+                        android:id="@+id/AccountSettingsDonePassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/done_button_background"
+                        app:layout_constraintEnd_toEndOf="@+id/AccountSettingsNewPassword"
+                        app:layout_constraintTop_toBottomOf="@+id/AccountSettingsNewPassword"></ImageView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
